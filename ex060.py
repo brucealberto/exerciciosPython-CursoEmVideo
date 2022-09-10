@@ -11,11 +11,11 @@
 
 # com For
 
-numero = int(input('Digite um número: '))
+numero = int(input("Digite um número: "))
 fatorial = 1
-print(f'fatorial de {numero}! é :')
+print(f"fatorial de {numero}! é :")
 for c in range(numero, 0, -1):
-  print(f'{c}', end='')
-  print(' x ' if c > 1 else ' = ', end='')
-  fatorial *= c
+    print(f"{c}", end="")
+    print(" x " if c > 1 else " = ", end="")
+    fatorial *= c
 print(fatorial)

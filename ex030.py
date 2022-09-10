@@ -1,5 +1,5 @@
-numero = int(input('digite um número: '))
+numero = int(input("digite um número: "))
 if numero % 2 == 0:
-  print('PAR')
+    print("PAR")
 else:
-  print('ÍMPAR')
+    print("ÍMPAR")

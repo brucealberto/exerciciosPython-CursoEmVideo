@@ -1,6 +1,6 @@
-frase = str(input('\033[34mdigite uma frase: ')).strip().upper()
+frase = str(input("\033[34mdigite uma frase: ")).strip().upper()
 fraseSeparada = frase.split()
-fraseSemEspaco = ''.join(fraseSeparada)
+fraseSemEspaco = "".join(fraseSeparada)
 fraseInvertida = fraseSemEspaco[::-1]
 # Solução normal
 # for letra in range(len(fraseSemEspaco) - 1, -1, -1):
@@ -12,6 +12,6 @@ fraseInvertida = fraseSemEspaco[::-1]
 
 # Solução enxuta
 if fraseSemEspaco == fraseInvertida:
-  print('Temos um Palíndormo!')
+    print("Temos um Palíndormo!")
 else:
-   print('Não é um Palíndromo.')
+    print("Não é um Palíndromo.")
