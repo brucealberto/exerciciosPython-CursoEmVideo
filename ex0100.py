@@ -14,7 +14,7 @@ def somaPar(lista):
     for v in lista:
         if v % 2 == 0:
             par += v
-    print(f"\nSomando os valores pares da lista {lista}, temos {par}")
+    print(f"\nSomando os valores pares  da lista {lista}, temos {par}")
 
 
 numeros = list()
