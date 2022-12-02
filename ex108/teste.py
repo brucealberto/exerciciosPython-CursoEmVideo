@@ -1,0 +1,16 @@
+import moeda
+
+valor = float(input("Digite um valor: R$"))
+met = moeda.metade(valor)
+dob = moeda.dobro(valor)
+aum = moeda.aumentar(valor, 10)
+dim = moeda.diminuir(valor, 13)
+moe = moeda.moeda(valor)
+moe_met = moeda.moeda(met)
+moe_dob = moeda.moeda(dob)
+moe_aum = moeda.moeda(aum)
+moe_dim = moeda.moeda(dim)
+print(f"metade de {moe} é => {moe_met}")
+print(f"dobro de {moe} é => {moe_dob}")
+print(f"aumentando 10%, temos => {moe_aum}")
+print(f"reduzindo 13%, temos => {moe_dim}")
